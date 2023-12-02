@@ -1,0 +1,2 @@
+= README
+This repository is an exercise in storing public notes. Part of an initiative to build more in public.
