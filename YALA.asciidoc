@@ -31,6 +31,7 @@ URL: string (the retrieved item)
 MediaType: string | enum (webpage, video, image, pdf)
 [the mediatype could be even richer, as saved items could represent redit threads, tweets, etc]
 Tags: []string
+ArchiveRefLink: string (a way to save the item in another archival method)
 Summary: string
 DocID: uuid (?) 
 ```
