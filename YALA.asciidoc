@@ -22,19 +22,17 @@ There may already be an existing product that solves this problem - in the note 
 
 == Can we do better?
 Based on the problems outlined, some ideas:
-
- With better labeling tech today, we can generate tags on the fly while also prodiving great semantic search
- Storage is cheap enough that we can manage both the raw saved item as well as a truncated / summarized version
-
+1. With better labeling tech today, we can generate tags on the fly while also prodiving great semantic search
+2. Storage is cheap enough that we can manage both the raw saved item as well as a truncated / summarized version
 
 == Data Model ideation
-
+```
 URL: string (the retrieved item)
 MediaType: string | enum (webpage, video, image, pdf)
 [the mediatype could be even richer, as saved items could represent redit threads, tweets, etc]
 Tags: []string
 Summary: string
 DocID: uuid (?) 
-
+```
 At first glance, initally keying by time seems an acceptable choice.
 
