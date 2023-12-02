@@ -7,7 +7,7 @@ Some issues I have:
 
 1. Not all saved items are of the same category (for entertainment, later reading, etc)
 - Some platforms allow saving to a subcollection, but that also gives the problem of categorizing
-2.Saved items often lose relevance over time
+2. Saved items often lose relevance over time
 - If you don't have a great memory, you need dedicated time to 'review' or prune saved items
 3. Items need to be 'tracked' which is not always compatible with the concept of 'saving'
 - Keeping track of products or companies requires active polling that is not always available
