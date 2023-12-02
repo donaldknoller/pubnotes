@@ -21,7 +21,8 @@ The internet archive saves webpages as much as technically feasible.
 There may already be an existing product that solves this problem - in the note collections sphere, obsidian can be great
 
 == Can we do better?
-Based on the problems outlined, some ideas:
+Based on the problems outlined, some ideas:  
+
 1. With better labeling tech today, we can generate tags on the fly while also prodiving great semantic search
 2. Storage is cheap enough that we can manage both the raw saved item as well as a truncated / summarized version
 
