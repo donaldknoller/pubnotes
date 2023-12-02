@@ -1,0 +1,40 @@
+= Yet Another Link Aggregator 
+
+== Why? 
+
+When saving links or items across different sites, there are often a few problems that I haven't quite found a perfect solution for.
+Some issues I have:
+
+ Not all saved items are of the same category (for entertainment, later reading, etc)
+   Some platforms allow saving to a subcollection, but that also gives the problem of categorizing
+ Saved items often lose relevance over time
+   If you don't have a great memory, you need dedicated time to 'review' or prune saved items
+ Items need to be 'tracked' which is not always compatible with the concept of 'saving'
+   Keeping track of products or companies requires active polling that is not always available
+ Saving an item in its entirety is not always necessary: a summary may suffice
+
+== Rebuttals
+
+The problems outlined are partially solved in existing ways. 
+Wikipedia, for example, contains both sufficient summaries and relevant citations in a well known format.
+The internet archive saves webpages as much as technically feasible.
+There may already be an existing product that solves this problem - in the note collections sphere, obsidian can be great
+
+== Can we do better?
+Based on the problems outlined, some ideas:
+
+ With better labeling tech today, we can generate tags on the fly while also prodiving great semantic search
+ Storage is cheap enough that we can manage both the raw saved item as well as a truncated / summarized version
+
+
+== Data Model ideation
+
+URL: string (the retrieved item)
+MediaType: string | enum (webpage, video, image, pdf)
+[the mediatype could be even richer, as saved items could represent redit threads, tweets, etc]
+Tags: []string
+Summary: string
+DocID: uuid (?) 
+
+At first glance, initally keying by time seems an acceptable choice.
+
